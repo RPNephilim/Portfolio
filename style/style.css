@@ -37,6 +37,65 @@ body{
     border-radius: 50px;
 
 }
+#titleProject{
+    margin-left: 5%;
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: 100;
+}
+hr{
+    height: 2px;
+    background-color: rgb(167, 233, 255);
+    border-width: 0;
+}
+#project{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#project #p1{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(197, 72, 72);
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+#p1title{
+    color: white;
+    margin-left: 24%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#project #p2{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+#p2title{
+    color: white;
+    margin-left: 34%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titleAchievement{
+    margin-left: 5%;
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: 100;
+}
+#project #p3{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
 #footer{
     background-color: rgb(47, 47, 47);
     width: 100%;
@@ -47,6 +106,7 @@ body{
     font-size: 20px;
     box-sizing: border-box;
     color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, monospace;
 }
 #footer a:link{
     color: gray;
